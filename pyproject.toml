@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "maxfit"
+version = "0.1.0"
+authors = [
+  { name="Alberto Bemporad", email="alberto.bemporad@imtlucca.it" }
+]
+description = "MaxFit - A Python Library for Worst-Case Nonlinear Regression."
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = ["numpy","jax","jax_sysid","flax","joblib","nlopt"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+]
+keywords = ["worst-case nonlinear regression", "L_infty regression", "minimax regression", "neural networks", "uncertainty bounds"]
+
+[project.urls]
+"Homepage" = "https://github.com/bemporad/maxfit"
