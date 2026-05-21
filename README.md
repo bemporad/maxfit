@@ -1,4 +1,4 @@
-<img src="http://cse.lab.imtlucca.it/~bemporad/maxfit/images/maxfit-logo.png" alt="nashopt" width=40%/>
+<img src="http://cse.lab.imtlucca.it/~bemporad/maxfit/images/maxfit-logo.png" alt="maxfit" width=40%/>
 
 # MaxFit  
 ### A Python library for Worst-Case Nonlinear Regression
@@ -138,7 +138,7 @@ The full example including plots is available in [`examples/example_scalar_fun.p
 ---
 ## Related packages
 
-<a href="https://github.com/bemporad/nash-mpqp">**jax-sysid**</a> a Python package based on JAX for linear and nonlinear system identification of state-space models, recurrent neural network (RNN) training, and nonlinear regression/classification
+<a href="https://github.com/bemporad/jax-sysid">**jax-sysid**</a> a Python package based on JAX for linear and nonlinear system identification of state-space models, recurrent neural network (RNN) training, and nonlinear regression/classification
 
 ---
 ## License
